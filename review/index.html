@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#1d3829"><meta name="description" content="Pistachio Montréal — pâtisseries, crêpes, brunch et café. Consultez notre menu bilingue.">
+<meta name="robots" content="noindex,nofollow"><title>Pistachio — Pâtisserie & café à Montréal</title>
+<style>
+:root{--forest:#1d3829;--olive:#8d965a;--cream:#fbf5e9;--pink:#c49b99;--ink:#203025}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:var(--ink);font:16px/1.6 system-ui,-apple-system,sans-serif}
+a{color:inherit}a:focus-visible,button:focus-visible,input:focus-visible{outline:3px solid #b26a46;outline-offset:3px}
+.skip{position:absolute;top:-80px;left:1rem;background:white;padding:1rem;z-index:9}.skip:focus{top:1rem}
+header{background:var(--forest);color:white;position:sticky;top:0;z-index:5;box-shadow:0 2px 16px #0002}
+nav{max-width:1150px;margin:auto;padding:1rem 1.25rem;display:flex;align-items:center;justify-content:space-between;gap:1rem}
+.logo{font:italic 700 2rem Georgia,serif;text-decoration:none;color:#fff}.navitems{display:flex;gap:1.5rem;align-items:center;flex-wrap:wrap}
+button,.btn{border:0;cursor:pointer;background:var(--forest);color:white;padding:.8rem 1.2rem;border-radius:100px;font:inherit;text-decoration:none;display:inline-block}button:hover,.btn:hover{filter:brightness(1.15)}
+#language{background:#eef1db;color:var(--forest);font-weight:800;min-width:54px}
+.hero{background:linear-gradient(125deg,#879253 0%,#a9b17e 50%,#e7d1c8 100%);padding:clamp(4rem,10vw,9rem) 1.5rem;position:relative;overflow:hidden}
+.hero:after{content:"✦";font:clamp(13rem,30vw,30rem) Georgia,serif;color:#fff3;position:absolute;right:0;top:-5rem;pointer-events:none}
+.inner{max-width:1150px;margin:auto;position:relative;z-index:1}.kicker{font-size:.75rem;letter-spacing:.25em;text-transform:uppercase;font-weight:900}
+h1,h2{font-family:Georgia,serif;line-height:1.12}h1{font-size:clamp(3.2rem,8vw,6.7rem);max-width:850px;margin:1rem 0}h2{font-size:clamp(2.2rem,5vw,3.4rem);margin:.5rem 0 1rem}
+.hero p{max-width:620px;font-size:1.2rem}.actions{display:flex;gap:.75rem;flex-wrap:wrap;margin-top:1.5rem}
+.outline{border:2px solid var(--forest);background:transparent;color:var(--forest)}
+.main{max-width:1150px;padding:5rem 1.25rem;margin:auto}.lede{max-width:750px;color:#4b5544}
+.filters{display:flex;gap:.5rem;flex-wrap:wrap;margin:1.25rem 0}.filter{background:#e6e5d7;color:#203025;border:1px solid #d2d4bc;font-size:.88rem;padding:.6rem 1rem}
+.filter.active{background:var(--forest);color:white}
+input{font:inherit;width:100%;padding:1rem;border:1px solid #9ea58e;border-radius:12px;background:#fff}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(225px,1fr));gap:1rem}
+.product{border:1px solid #d2d1bb;border-radius:14px;background:white;padding:1.35rem;display:flex;flex-direction:column;gap:.6rem;min-height:170px}
+.product strong{font:1.25rem Georgia,serif}.tag{font-size:.7rem;letter-spacing:.08em;text-transform:uppercase;color:#656e49}
+.price{font-weight:800;color:var(--forest);margin-top:auto}
+.note{font-size:.85rem;color:#606c5d}.pink{background:#d7afae}.dark{background:var(--forest);color:#f7f2e7}
+.split{display:grid;grid-template-columns:1fr 1fr;gap:3rem;align-items:center}
+.places{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:1rem}.place{background:white;padding:1.5rem;border:1px solid #d2d1bb;border-radius:14px}
+footer{background:#12271b;color:white;padding:3rem 1.25rem}footer .inner{display:flex;gap:2rem;justify-content:space-between;flex-wrap:wrap}
+[data-lang]{display:none}.show{display:block}
+@media(max-width:680px){.navitems{gap:.7rem;font-size:.8rem}nav{align-items:flex-start}.logo{font-size:1.5rem}.main{padding:3rem 1rem}.split{grid-template-columns:1fr}.hero{padding:5rem 1rem}.product{min-height:130px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style></head><body>
+<a href="#content" class="skip">Skip to content / Aller au contenu</a>
+<header><nav aria-label="Primary navigation"><a class="logo" href="#home">Pistachio</a>
+<div class="navitems"><a href="#menu" id="navMenu">Menu</a><a href="#locations" id="navLocations">Adresses</a><a href="#contact" id="navContact">Contact</a><button id="language" aria-label="Switch language / Changer la langue">EN</button></div></nav></header>
+<main id="content"><section class="hero" id="home"><div class="inner">
+<p class="kicker" id="heroKicker">MONTRÉAL • PÂTISSERIE • CAFÉ</p><h1 id="heroTitle">La gourmandise, à la Pistachio.</h1>
+<p id="heroText">Crêpes signature, trompe-l'œil, douceurs artisanales et brunch — découvrez une carte haute en couleurs.</p>
+<div class="actions"><a class="btn" href="#menu" id="viewMenu">Explorer le menu</a><a class="btn outline" href="#locations" id="findUs">Nous trouver</a></div>
+</div></section>
+<section id="menu" class="main"><p class="kicker" id="menuEyebrow">NOTRE CARTE</p><h2 id="menuTitle">Vos envies, notre spécialité.</h2>
+<p class="lede" id="menuIntro">Prix en dollars canadiens, selon nos menus officiels. Disponibilité et suppléments à confirmer en boutique.</p>
+<label for="search" id="searchLabel">Rechercher dans le menu</label><input id="search" type="search" placeholder="Ex. pistache, Lotus, focaccia" autocomplete="off">
+<div class="filters" id="filters" aria-label="Menu categories"></div><p id="count" class="note" aria-live="polite"></p><div class="grid" id="products"></div>
+<p class="note" id="menuNote">Les illustrations de produits et les descriptions détaillées seront ajoutées à partir des originaux officiels après validation des actifs.</p>
+</section>
+<section class="pink"><div class="main split"><div><p class="kicker">PISTACHIO</p><h2 id="brunchTitle">Du sucré au salé.</h2><p id="brunchText">Focaccias, halloumi, granola et douceurs exclusives. Une expérience à découvrir sur place.</p><a href="#menu" class="btn" id="brunchBtn">Voir la carte</a></div><div><div style="border:2px solid #233d29;border-radius:20px;padding:3rem;text-align:center"><span style="font:italic 4rem Georgia,serif">Pistachio</span><p>BRUNCH • CAFÉ • DESSERTS</p></div></div></div></section>
+<section class="main" id="locations"><p class="kicker">MONTRÉAL</p><h2 id="locationsTitle">Nos adresses</h2>
+<p class="lede" id="locationsNote">Vérifiez les heures d'ouverture avant de vous déplacer.</p><div class="places">
+<div class="place"><h3>Griffintown</h3><p>1708 Rue Notre-Dame O, Montréal, QC</p><a href="https://www.google.com/maps/search/?api=1&query=1708%20Rue%20Notre-Dame%20O%20Montreal" target="_blank" rel="noopener noreferrer">Google Maps</a></div>
+<div class="place"><h3>Downtown / Mackay</h3><p>1221 Rue Mackay, Montréal, QC</p><a href="https://www.google.com/maps/search/?api=1&query=1221%20Rue%20Mackay%20Montreal" target="_blank" rel="noopener noreferrer">Google Maps</a></div>
+<div class="place"><h3>Saint-Laurent</h3><p>3672 Boul. Saint-Laurent, Montréal, QC</p><a href="https://www.google.com/maps/search/?api=1&query=3672%20Boulevard%20Saint-Laurent%20Montreal" target="_blank" rel="noopener noreferrer">Google Maps</a></div>
+</div></section>
+<section id="contact" class="dark"><div class="main"><p class="kicker">PISTACHIO</p><h2 id="contactTitle">Une question ou une occasion spéciale ?</h2><p id="contactText">Écrivez-nous pour vos demandes et événements.</p><a class="btn" style="background:#b4bf85;color:#12271b" href="mailto:pistachiomtl@gmail.com">pistachiomtl@gmail.com</a></div></section>
+</main><footer><div class="inner"><strong style="font:italic 2rem Georgia,serif">Pistachio</strong><p>Montréal, Québec · © 2026 Pistachio</p></div></footer>
+<script>
+'use strict';
+const categoryNames={all:['Tout','All'],pancakes:['Pancakes fourrés','Stuffed pancakes'],crepes:['Crêpes signature','Signature crêpes'],waffles:['Gaufres','Waffles'],croissants:['Croissants','Croissants'],chimney:['Gâteaux cheminée','Chimney cakes'],desserts:['Pâtisseries & trompe-l’œil','Pastries & trompe-l’œil'],drinks:['Boissons','Drinks'],brunch:['Brunch & salé','Brunch & savory']};
+const items=[
+['pancakes','Rêve de Pistache','Pistachio Dream',15.95],['pancakes','Nutella Bomb','Nutella Bomb',15.95],['pancakes','Délice d’Érable','Maple Delight',15],['pancakes','Lotus Royale','Lotus Royale',15.95],
+['crepes','Crêpe Oreo & Nutella','Oreo & Nutella Crêpe',15.50],['crepes','Crêpe Sushi','Sushi Crêpe',15.95],['crepes','Crêpe Pistachio Royale','Pistachio Royale Crêpe',16.50],['crepes','Ouzi Dubai Chocolat','Ouzi Dubai Chocolate',18.50],['crepes','Crêpe Fettuccine','Fettuccine Crêpe',15.50],['crepes','Crêpe Lotus Banana Delight','Lotus Banana Delight Crêpe',15.95],
+['waffles','Oreo Choco Bliss','Oreo Choco Bliss',15.50],['waffles','Plaisir Pistache','Pistachio Delight',15.95],['waffles','Gaufre Caramel Lotus','Lotus Caramel Waffle',15.50],
+['croissants','Lotus Biscoff','Lotus Biscoff',9],['croissants','Explosion Pistache','Pistachio Explosion',9.95],['croissants','Croissant Chocolat Dubai','Dubai Chocolate Croissant',13.95],['croissants','Fromager','Cheese Croissant',9],['croissants','Nutella','Nutella',9],
+['chimney','Oreo & Nutella','Oreo & Nutella',12.95],['chimney','Lotus','Lotus',12.95],['chimney','Fantaisie Pistache','Pistachio Fantasy',12.95],['chimney','Chocolat Dubai','Dubai Chocolate',14.95],
+['desserts','Knafeh au Fromage','Cheese Knafeh',15.50],['desserts','Baklava Turque','Turkish Baklava',17.95],['desserts','Gâteau au chocolat triple et Brownie','Triple Chocolate Cake & Brownie',11.95],['desserts','Gâteau au chocolat fondant','Molten Chocolate Cake',15],['desserts','Strawberry Dubai Chocolate Cup','Strawberry Dubai Chocolate Cup',13.95],['desserts','Gâteau Crème Glacée','Ice Cream Cake',12.95],['desserts','Pudding','Pudding',15],['desserts','Gâteau au chocolat à l’ancienne','Old-Fashioned Chocolate Cake',11.95],['desserts','Gâteau aux Carottes','Carrot Cake',11.95],['desserts','Pistachio Tiramisu','Pistachio Tiramisu',10.50],['desserts','Pâte d’amande','Marzipan',8],['desserts','Cheesecake (part)','Slice of Cheesecake',9.50],['desserts','Trompe-l’œil','Trompe-l’œil',15],
+['drinks','Espresso simple','Single Espresso',4.50],['drinks','Espresso double','Double Espresso',5],['drinks','Café Americano','Americano',5.80],['drinks','Cappuccino','Cappuccino',5.95],['drinks','Café Glacé','Iced Coffee',5.95],['drinks','Café Latté','Caffè Latte',5.95],['drinks','Chai Latté','Chai Latte',6.95],['drinks','Matcha','Matcha',7.50],['drinks','Chocolat Chaud','Hot Chocolate',6],['drinks','Café Turc','Turkish Coffee',5],['drinks','London Fog','London Fog',7.80],['drinks','Sélection de Thés','Tea Selection',5],['drinks','Milkshake Pistache','Pistachio Milkshake',9.95],['drinks','Milkshake Oreo','Oreo Milkshake',9.95],['drinks','Milkshake Caramel Lotus','Lotus Caramel Milkshake',9.95],['drinks','Jus d’Orange','Fresh Orange Juice',7.50],['drinks','Mojito au Citron','Lemon Mojito',7.95],['drinks','Thé glacé','Iced Tea',6.50],
+['brunch','Focaccia Mortadelle Pistachio','Pistachio Mortadella Focaccia',18.95],['brunch','Focaccia Avocat & Saumon Fumé','Avocado & Smoked Salmon Focaccia',19.95],['brunch','Yogourt Grec & Granola','Greek Yogurt & Granola',14.95],['brunch','Focaccia Labneh Pistachio','Pistachio Labneh Focaccia',17.95],['brunch','Halloumi Hot Honey','Hot Honey Halloumi',18.95],['brunch','Le Grand Oriental','The Grand Oriental',17.95]
+];
+const copy={
+fr:{navMenu:'Menu',navLocations:'Adresses',navContact:'Contact',heroKicker:'MONTRÉAL • PÂTISSERIE • CAFÉ',heroTitle:'La gourmandise, à la Pistachio.',heroText:"Crêpes signature, trompe-l’œil, douceurs artisanales et brunch — découvrez une carte haute en couleurs.",viewMenu:'Explorer le menu',findUs:'Nous trouver',menuEyebrow:'NOTRE CARTE',menuTitle:'Vos envies, notre spécialité.',menuIntro:'Prix en dollars canadiens, selon nos menus officiels. Disponibilité et suppléments à confirmer en boutique.',searchLabel:'Rechercher dans le menu',menuNote:'Produits et prix issus des menus officiels. Photographies détaillées à intégrer après vérification des actifs.',brunchTitle:'Du sucré au salé.',brunchText:'Focaccias, halloumi, granola et douceurs exclusives. Une expérience à découvrir sur place.',brunchBtn:'Voir la carte',locationsTitle:'Nos adresses',locationsNote:"Vérifiez les heures d’ouverture avant de vous déplacer.",contactTitle:'Une question ou une occasion spéciale ?',contactText:'Écrivez-nous pour vos demandes et événements.'},
+en:{navMenu:'Menu',navLocations:'Locations',navContact:'Contact',heroKicker:'MONTRÉAL • PASTRY • CAFÉ',heroTitle:'A taste of Pistachio.',heroText:'Signature crêpes, trompe-l’œil pastries, handmade sweets and brunch — discover our colourful menu.',viewMenu:'Explore the menu',findUs:'Find us',menuEyebrow:'OUR MENU',menuTitle:'Made for every craving.',menuIntro:'Prices in Canadian dollars, based on our official menus. Please confirm availability and extras in store.',searchLabel:'Search the menu',menuNote:'Products and prices come from the official menus. Individual product photos will be added after asset verification.',brunchTitle:'Sweet meets savory.',brunchText:'Focaccias, halloumi, granola and signature pastries. Discover it in store.',brunchBtn:'View menu',locationsTitle:'Our locations',locationsNote:'Please check opening hours before visiting.',contactTitle:'Questions or a special occasion?',contactText:'Email us about inquiries and events.'}};
+let lang='fr',cat='all',term='';
+try{lang=localStorage.getItem('pistachio-language')==='en'?'en':'fr'}catch(e){}
+function escapeHTML(s){return String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
+function render(){document.documentElement.lang=lang;document.title=lang==='fr'?'Pistachio — Pâtisserie & café à Montréal':'Pistachio — Pastry & café in Montréal';for(const [key,value] of Object.entries(copy[lang])){const node=document.getElementById(key);if(node)node.textContent=value}
+document.getElementById('language').textContent=lang==='fr'?'EN':'FR';document.getElementById('search').placeholder=lang==='fr'?'Ex. pistache, Lotus, focaccia':'E.g. pistachio, Lotus, focaccia';
+document.getElementById('filters').innerHTML=Object.entries(categoryNames).map(([key,names])=>'<button type="button" class="filter '+(key===cat?'active':'')+'" aria-pressed="'+(key===cat)+'" data-category="'+key+'">'+escapeHTML(names[lang==='fr'?0:1])+'</button>').join('');
+const matching=items.filter(i=>(cat==='all'||i[0]===cat)&&[i[1],i[2],categoryNames[i[0]][0],categoryNames[i[0]][1]].join(' ').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').includes(term.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'')));
+document.getElementById('count').textContent=matching.length+' '+(lang==='fr'?'produits':'products');
+document.getElementById('products').innerHTML=matching.map(i=>'<article class="product"><div class="tag">'+escapeHTML(categoryNames[i[0]][lang==='fr'?0:1])+'</div><strong>'+escapeHTML(i[lang==='fr'?1:2])+'</strong><div class="price">'+new Intl.NumberFormat(lang==='fr'?'fr-CA':'en-CA',{style:'currency',currency:'CAD'}).format(i[3])+'</div></article>').join('')||'<p>'+(lang==='fr'?'Aucun produit trouvé.':'No products found.')+'</p>';
+}
+document.getElementById('language').addEventListener('click',()=>{lang=lang==='fr'?'en':'fr';try{localStorage.setItem('pistachio-language',lang)}catch(e){}render()});
+document.getElementById('search').addEventListener('input',e=>{term=e.target.value;render()});
+document.getElementById('filters').addEventListener('click',e=>{const b=e.target.closest('[data-category]');if(b){cat=b.dataset.category;render()}});
+render();
+</script></body></html>
